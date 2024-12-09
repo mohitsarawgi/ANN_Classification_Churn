@@ -20,13 +20,13 @@ Copy code
 git clone https://github.com/mohitsarawgi/ANN-Classification-Churn.git
 cd ann-classification-churn
 Create a Virtual Environment
-
+--------------------------------
 bash
 Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install Dependencies
-
+--------------------------------/n
 bash
 Copy code
 pip install -r requirements.txt
