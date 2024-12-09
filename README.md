@@ -18,7 +18,9 @@ Clone the Repository
 bash
 Copy code
 git clone https://github.com/mohitsarawgi/ANN-Classification-Churn.git
+##
 cd ann-classification-churn
+##
 Create a Virtual Environment
 ##
 bash
@@ -31,24 +33,25 @@ bash
 Copy code
 pip install -r requirements.txt
 Download Dataset
-
+##
 Place your dataset in the root folder of the project. Update the file name in the script if needed.
 Usage
 Run the Streamlit Application
-
+##
 bash
 Copy code
 streamlit run app.py
 Access the Application
-
+##
 Open your browser and navigate to http://localhost:8501.
 Make Predictions
-
+##
 Upload customer data through the Streamlit app or use sample data for predictions.
 Project Structure
 bash
 Copy code
 ann-classification-churn/
+##
 │
 ├── app.py                     # Streamlit application script
 ├── model.py                   # ANN model creation and training
