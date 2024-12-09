@@ -51,16 +51,4 @@ Project Structure
 bash
 Copy code
 ann-classification-churn/
-##
-│
-├── app.py                     # Streamlit application script
-├── model.py                   # ANN model creation and training
-├── preprocess.py              # Data preprocessing utilities
-├── requirements.txt           # Project dependencies
-├── README.md                  # Project documentation
-├── dataset/                   # Folder for input data
-│   └── customer_churn.csv     # Example dataset
-└── models/                    # Folder for saved models
-    └── ann_model.h5           # Trained ANN model
-
 
