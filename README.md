@@ -1,21 +1,23 @@
 # ANN_classification_Churn
 
 
-ANN Classification Churn - README
-Overview
+# Overview
 This project demonstrates how to use an Artificial Neural Network (ANN) to classify customer churn based on various features such as customer demographics, account information, and usage statistics. The model is implemented using TensorFlow and Keras, and the project includes preprocessing, model training, and evaluation.
 
-Features
+# Features
 Preprocessing customer data using techniques like scaling and encoding.
 Building and training an Artificial Neural Network for binary classification.
 Evaluating model performance using metrics like accuracy and confusion matrix.
 Interactive interface using Streamlit for predictions and insights.
-Installation
+
+
+# Installation
+
 Clone the Repository
 
 bash
 Copy code
-git clone https://github.com/yourusername/ann-classification-churn.git
+git clone https://github.com/mohitsarawgi/ANN-Classification-Churn.git
 cd ann-classification-churn
 Create a Virtual Environment
 
@@ -57,7 +59,9 @@ ann-classification-churn/
 │   └── customer_churn.csv     # Example dataset
 └── models/                    # Folder for saved models
     └── ann_model.h5           # Trained ANN model
-Technologies Used
+
+
+# Technologies Used
 Python: Programming language.
 TensorFlow/Keras: Building and training the ANN model.
 Scikit-learn: Preprocessing and evaluation.
