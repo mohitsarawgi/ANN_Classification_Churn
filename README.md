@@ -20,13 +20,13 @@ Copy code
 git clone https://github.com/mohitsarawgi/ANN-Classification-Churn.git
 cd ann-classification-churn
 Create a Virtual Environment
---------------------------------
+##
 bash
 Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install Dependencies
---------------------------------/n
+##
 bash
 Copy code
 pip install -r requirements.txt
@@ -61,47 +61,3 @@ ann-classification-churn/
     └── ann_model.h5           # Trained ANN model
 
 
-# Technologies Used
-Python: Programming language.
-TensorFlow/Keras: Building and training the ANN model.
-Scikit-learn: Preprocessing and evaluation.
-Streamlit: Interactive user interface.
-Pandas & NumPy: Data manipulation and analysis.
-How it Works
-Data Preprocessing
-
-Missing values are handled, features are scaled using StandardScaler, and categorical variables are encoded using LabelEncoder or OneHotEncoder.
-Model Architecture
-
-Input Layer: Accepts preprocessed data features.
-Hidden Layers: Two layers with ReLU activation for feature extraction.
-Output Layer: Single neuron with sigmoid activation for binary classification.
-Training
-
-The model is compiled using the binary_crossentropy loss function and optimized with adam.
-Performance is monitored using accuracy.
-Evaluation
-
-Evaluate model performance on test data using accuracy and confusion matrix.
-Deployment
-
-The trained model is integrated with a Streamlit application for real-time predictions.
-Dataset
-The dataset contains the following columns:
-
-RowNumber: Index of the customer.
-CustomerId: Unique ID for the customer.
-Surname: Customer surname (excluded in modeling).
-Geography: Location of the customer (OneHotEncoded).
-Gender: Gender of the customer (LabelEncoded).
-Age: Age of the customer.
-Balance: Account balance of the customer.
-Tenure: Number of years as a customer.
-Exited: Binary target variable indicating churn.
-Results
-Achieved an accuracy of 85% on the test set.
-Confusion Matrix and classification report are available in the Streamlit app.
-Future Improvements
-Add more features for better accuracy.
-Use hyperparameter tuning techniques like GridSearchCV.
-Test alternative architectures (e.g., LSTM, CNN) for better performance.
